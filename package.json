@@ -4,11 +4,14 @@
   "description": "This is a Bot made for fun",
   "main": "index.js",
   "scripts": {
+    "start": "node index.js",
+    "bot": "node bot.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Priyansh Patidar",
   "license": "ISC",
   "dependencies": {
+    "axios": "^0.21.1",
     "dotenv": "^10.0.0",
     "eris": "^0.15.1",
     "express": "^4.17.1"
